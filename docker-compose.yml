@@ -3,6 +3,7 @@ services:
     image: 'vvadp/apache:latest'
     container_name: apache-service
     build:
-      dockerfile: activiedad5cg/Dockerfile
+      context: activiedad5cg
+      dockerfile: Dockerfile
     ports:
       - "80:80"
