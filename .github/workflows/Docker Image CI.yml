@@ -24,4 +24,4 @@ jobs:
      with:
        push: true
        tags: ${{secrets.DOCKERHUB_USERNAME}}/apache:latest
-       docker: .Dockerfile
+       docker: ./activiedad5cg/Dockerfile
